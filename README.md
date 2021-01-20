@@ -1,4 +1,4 @@
 # Road Signs Recognition
 This project is my bachelor's thesis
 
-![Screenshot](img/img.jpg)
+![Prototyp](/img/img.JPG?raw=true)
