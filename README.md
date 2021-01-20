@@ -1,7 +1,11 @@
 # Road Signs Recognition
 This project is my bachelor's thesis
 
-![Prototyp](/img/img.JPG?raw=true)
+![Prototyp](/img/img.JPG?raw=true size=80)
+
+<p>
+    <img src="/img/img.JPG" width="50%" height=auto />
+</p>
 
 Parts that I used:
 - Raspberry Pi 4 Model B
