@@ -2,7 +2,7 @@
 This project is my bachelor's thesis
 
 <p>
-    <img src="/img/img.JPG" width="50%" height=auto />
+    <img src="/img/image.JPG" width="50%" height=auto />
 </p>
 
 Parts that I used:
