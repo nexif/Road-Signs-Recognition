@@ -10,3 +10,8 @@ Parts that I used:
 - Google Coral USB Accelerator (Edge TPU ML - ARM Cortex M0+)
 - Eken H9R 4K camera
 - HDMI to CSI-2 adapter (Toshiba TC358743XBG)
+
+## Dotychczasowe rezultaty:
+<p>
+    <img src="/img/image2.png" width="50%" height=auto />
+</p>
