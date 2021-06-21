@@ -2,7 +2,7 @@
 This project is my bachelor's thesis
 
 <p>
-    <img src="/README-img/image.JPG" width="50%" height=auto />
+    <!-- <img src="/README-img/image.JPG" width="50%" height=auto /> -->
 </p>
 
 Parts that I used:
@@ -14,6 +14,5 @@ Parts that I used:
 ## Dotychczasowe rezultaty:
 <p>
     <!-- Dodać GIF z rezultatem: -->
-    <img src="/README-img/image2.png" width="50%" height=auto />
     <img src="/README-img/image2.png" width="50%" height=auto />
 </p>
