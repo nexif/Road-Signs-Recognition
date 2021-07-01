@@ -12,6 +12,4 @@ Parts that I used:
 
 ## Dotychczasowe rezultaty:
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/nexif/Road-Signs-Recognition/blob/main/resources/result.mp4" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/45578165/124188962-49b35e80-dac0-11eb-97ee-326cd2769c1e.mp4
