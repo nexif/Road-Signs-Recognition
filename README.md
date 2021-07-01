@@ -7,12 +7,12 @@ This project is my bachelor's thesis
 
 Parts that I used:
 - Raspberry Pi 4 Model B (4GB RAM)
+- Logitech C920 USB Webcam
 - Google Coral USB Accelerator (Edge TPU ML - ARM Cortex M0+)
-- Eken H9R 4K camera
-- HDMI to CSI-2 adapter (Toshiba TC358743XBG)
 
 ## Dotychczasowe rezultaty:
-<p>
-    <!-- Dodać GIF z rezultatem: -->
-    <img src="/README-img/image2.png" width="50%" height=auto />
-</p>
+<!-- <p> -->
+<!-- Dodać GIF z rezultatem: -->
+<!-- <img src="/README-img/image2.png" width="50%" height=auto /> -->
+<!-- </p> -->
+![](resources/result.mp4)
