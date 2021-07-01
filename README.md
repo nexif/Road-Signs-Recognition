@@ -17,6 +17,6 @@ Parts that I used:
 <!-- </p> -->
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="resources/result.mp4" type="video/mp4">
+    <source src="/resources/result.mp4" type="video/mp4">
   </video>
 </figure>
