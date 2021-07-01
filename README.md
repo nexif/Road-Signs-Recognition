@@ -15,8 +15,4 @@ Parts that I used:
 <!-- Dodać GIF z rezultatem: -->
 <!-- <img src="/README-img/image2.png" width="50%" height=auto /> -->
 <!-- </p> -->
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/resources/result.mp4" type="video/mp4">
-  </video>
-</figure>
+![](https://github.com/nexif/Road-Signs-Recognition/blob/main/resources/result.mp4?raw=true)
