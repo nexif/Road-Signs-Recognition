@@ -1,5 +1,4 @@
 # Road Signs Recognition
-This project is my bachelor's thesis
 
 <p>
     <!-- <img src="/README-img/image.JPG" width="50%" height=auto /> -->
