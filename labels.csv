@@ -1,4 +1,4 @@
-ClassId;Name
+ClassId;SignName
 0;Ograniczenie prędkości (20km/h)
 1;Ograniczenie prędkości (30km/h)
 2;Ograniczenie prędkości (50km/h)
@@ -9,7 +9,7 @@ ClassId;Name
 7;Ograniczenie prędkości (100km/h)
 8;Ograniczenie prędkości (120km/h)
 9;Zakaz wyprzedzania
-10;Zakaz wjazdu pojazdów o masie 3,5t
+10;Zakaz wjazdu pojazdów o masie 3.5t
 11;Skrzyżowanie z drogą podporządkowaną po obu stronach
 12;Droga z pierwszeństwem
 13;Ustąp pierwszeństwa
