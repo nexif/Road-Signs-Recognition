@@ -15,6 +15,8 @@ Parts that I used:
 <!-- Dodać GIF z rezultatem: -->
 <!-- <img src="/README-img/image2.png" width="50%" height=auto /> -->
 <!-- </p> -->
-<video controls="controls">
-  <source type="video/mp4" src="resources/result.mp4"></source>
-</video>
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="resources/result.mp4" type="video/mp4">
+  </video>
+</figure>
