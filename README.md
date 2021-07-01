@@ -11,5 +11,4 @@ Parts that I used:
 - Google Coral USB Accelerator (Edge TPU ML - ARM Cortex M0+)
 
 ## Dotychczasowe rezultaty:
-
-https://user-images.githubusercontent.com/45578165/124188962-49b35e80-dac0-11eb-97ee-326cd2769c1e.mp4
+[![Film na YouTube](https://img.youtube.com/vi/3R9dNx7FXng/0.jpg)](https://www.youtube.com/watch?v=3R9dNx7FXng)
