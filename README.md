@@ -11,8 +11,7 @@ Parts that I used:
 - Google Coral USB Accelerator (Edge TPU ML - ARM Cortex M0+)
 
 ## Dotychczasowe rezultaty:
-<!-- <p> -->
-<!-- Dodać GIF z rezultatem: -->
-<!-- <img src="/README-img/image2.png" width="50%" height=auto /> -->
-<!-- </p> -->
-![](https://github.com/nexif/Road-Signs-Recognition/blob/main/resources/result.mp4?raw=true)
+
+<video width="320" height="240" controls>
+  <source src="https://github.com/nexif/Road-Signs-Recognition/blob/main/resources/result.mp4" type="video/mp4">
+</video>
