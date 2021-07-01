@@ -15,4 +15,6 @@ Parts that I used:
 <!-- Dodać GIF z rezultatem: -->
 <!-- <img src="/README-img/image2.png" width="50%" height=auto /> -->
 <!-- </p> -->
-![](resources/result.mp4)
+<video controls="controls">
+  <source type="video/mp4" src="resources/result.mp4"></source>
+</video>
