@@ -9,8 +9,9 @@ Przy projekcie wykorzystano:
 - Darknet (DNN framework w C oraz CUDA)
 
 ## Dotychczasowe rezultaty:
+#### Film w serwisie YouTube:
 [![Film na YouTube](https://img.youtube.com/vi/3R9dNx7FXng/0.jpg)](https://www.youtube.com/watch?v=3R9dNx7FXng)
-
+#### Zrzut ekranu przedstawiający detekcję:
 <p>
     <img src="/resources/image2.png" width="50%" height=auto />
 </p>
