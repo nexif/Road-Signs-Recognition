@@ -16,3 +16,11 @@ Przy projekcie wykorzystano:
 <p>
     <img src="/resources/image2.png" width="50%" height=auto />
 </p>
+
+
+***
+## Struktura kodu:
+*   plik 
+*   plik
+*   folder
+    *   podfolder      
