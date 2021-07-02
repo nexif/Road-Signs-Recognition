@@ -6,7 +6,8 @@ Przy projekcie wykorzystano:
 - Raspberry Pi 4 Model B (4GB RAM)
 - Kamera internetowa Logitech C920
 - Tensorflow 2 + Keras API
-- Darknet (DNN framework w C oraz CUDA)
+- Google Colaboratory do trenowania modeli
+- [Darknet](https://github.com/AlexeyAB/darknet)  (DNN framework w C oraz CUDA)
 
 ## Dotychczasowe rezultaty:
 #### Film w serwisie YouTube:
