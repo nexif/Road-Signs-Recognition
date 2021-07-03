@@ -1,18 +1,26 @@
 # Road Signs Recognition
-This project is my bachelor's thesis
 
-<p>
-    <!-- <img src="/README-img/image.JPG" width="50%" height=auto /> -->
-</p>
 
-Parts that I used:
+
+Przy projekcie wykorzystano:
 - Raspberry Pi 4 Model B (4GB RAM)
-- Logitech C920 USB Webcam
-- Google Coral USB Accelerator (Edge TPU ML - ARM Cortex M0+)
+- Kamera internetowa Logitech C920
+- Tensorflow 2 + Keras API
+- Google Colaboratory do trenowania modeli
+- [Darknet](https://github.com/AlexeyAB/darknet)  (DNN framework w C oraz CUDA)
 
 ## Dotychczasowe rezultaty:
-<!-- <p> -->
-<!-- Dodać GIF z rezultatem: -->
-<!-- <img src="/README-img/image2.png" width="50%" height=auto /> -->
-<!-- </p> -->
-![](resources/result.mp4)
+#### Film w serwisie YouTube:
+[![Film na YouTube](https://img.youtube.com/vi/3R9dNx7FXng/0.jpg)](https://www.youtube.com/watch?v=3R9dNx7FXng)
+#### Zrzut ekranu przedstawiający detekcję:
+<p>
+    <img src="/resources/image2.png" width="50%" height=auto />
+</p>
+
+
+***
+## Struktura kodu:
+*   plik 
+*   plik
+*   folder
+    *   podfolder      
