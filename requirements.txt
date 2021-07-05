@@ -1,0 +1,6 @@
+numpy
+pandas
+matplotlib
+pickle
+tensorflow
+opencv>=4.5.0
