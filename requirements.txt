@@ -1,3 +1,5 @@
+playsound
+PyObjC
 numpy
 pandas
 matplotlib
