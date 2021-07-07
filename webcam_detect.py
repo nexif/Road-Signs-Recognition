@@ -40,48 +40,37 @@ plt.rcParams['figure.figsize'] = (3, 3)
 f, t = 0, 0
 
 while True:
-    ret, frame = webcam.read() 
+    ret, frame = video.read()
     if not ret: break
        
     if height is None and width is None:
         height, width = frame.shape[:2]
 
-    # Blob from current frame
     blob = cv2.dnn.blobFromImage(frame, 1 / 255.0, (416, 416), swapRB=True, crop=False)
 
-    # Forward pass with blob through output layers
-    network.setInput(blob)
+    network.setInput(blob) # Forward pass with blob through output layers
     start = time.time()
     output_from_network = network.forward(layers_names_output)
     end = time.time()
 
-    # Increasing counters
     f += 1
     t += end - start
 
-    # Spent time for current frame
     print('Czas przetwarzania klatki nr {0}: {1:.5f} s'.format(f, end - start))
 
-    # Lists for detected bounding boxes, confidences and class's number
     bounding_boxes = []
     confidences = []
     class_numbers = []
 
-    # Going through all output layers after feed forward pass
-    for result in output_from_network:
-        # Going through all detections from current output layer
-        for detected_objects in result:
-            # Getting 80 classes' probabilities for current detected object
-            scores = detected_objects[5:]
-            # Getting index of the class with the maximum value of probability
-            class_current = np.argmax(scores)
-            # Getting value of probability for defined class
-            confidence_current = scores[class_current]
+    
+    for result in output_from_network: # Going through all output layers after feed forward pass
+        for detected_objects in result: # Going through all detections from current output layer
+            scores = detected_objects[5:] # Getting 80 classes' probabilities for current detected object
+            class_current = np.argmax(scores) # Getting index of the class with the maximum value of probability
+            confidence_current = scores[class_current] # Getting value of probability for defined class
 
-            # Eliminating weak predictions by minimum probability
-            if confidence_current > probability_minimum:
-                # Scaling bounding box coordinates to the initial frame size
-                box_current = detected_objects[0:4] * np.array([width, height, width, height])
+            if confidence_current > probability_minimum: # Eliminating weak predictions by minimum probability
+                box_current = detected_objects[0:4] * np.array([width, height, width, height]) # Scaling bounding box coordinates to the initial frame size
 
                 x_center, y_center, box_width, box_height = box_current
                 x_min = int(x_center - (box_width / 2))
@@ -110,35 +99,18 @@ while True:
 
                 scores = model.predict(blob_ts) # Klasyfikowanie znaku to jednej z 43 klas
                 prediction = np.argmax(scores)
-#                 print(labels['SignName'][prediction], '(', confidences[i]*100,'%)')
                 print('{0} ({1:.2%})'.format(labels['SignName'][prediction], confidences[i]))
-
-                # Colour for current bounding box
-                colour_box_current = colours[class_numbers[i]].tolist()
-
-                # Drawing bounding box on the original current frame
-                cv2.rectangle(frame, (x_min, y_min),
-                              (x_min + box_width, y_min + box_height),
-                              colour_box_current, 2)
-
-                # Preparing text with label and confidence for current bounding box
-                text_box_current = '{}: {:.4f}'.format(labels['SignName'][prediction],
-                                                       confidences[i])
-
-                # Putting text with label and confidence on the original image
-                cv2.putText(frame, text_box_current, (x_min, y_min - 5),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, colour_box_current, 2)
-
+    
+                playsound('sounds/{num}.mp3'.format(num = prediction))
+                
+                colour_box_current = colours[class_numbers[i]].tolist() # Colour for current bounding box
+                cv2.rectangle(frame, (x_min, y_min), (x_min + box_width, y_min + box_height), colour_box_current, 2) # Drawing bounding box on the original current frame
+                text_box_current = '{}: {:.4f}'.format(labels['SignName'][prediction], confidences[i]) # Preparing text with label and confidence for current bounding box
+                cv2.putText(frame, text_box_current, (x_min, y_min - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, colour_box_current, 2) # Putting text with label and confidence on the original image
 
     if writer is None:
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
         writer = cv2.VideoWriter('result.mp4', fourcc, 25, (frame.shape[1], frame.shape[0]), True)
-    writer.write(frame)
 
 video.release()
 writer.release()
-
-print('\nPomyślnie zapisano rezultat detekcji do pliku "result.mp4"')
-print('Łączna liczba klatek:', f)
-print('Czas łącznie {:.5f} sukund'.format(t))
-print('FPS (Frames Per Second - liczba przetwarzanych klatek na sekundę):', round((f / t), 1))
