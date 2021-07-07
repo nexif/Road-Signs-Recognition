@@ -1,8 +1,6 @@
-playsound
-PyObjC
-numpy
+numpy=1.19.0
 pandas
 matplotlib
-pickle
-tensorflow
-opencv>=4.5.0
+playsound
+opencv_python>=4.5.0
+jupyter
