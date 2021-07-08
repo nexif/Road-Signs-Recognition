@@ -1,6 +1,8 @@
 # Road Signs Recognition
 
-
+<p>
+    <img src="/resources/device.jpg" width="50%" height=auto />
+</p>
 
 Przy projekcie wykorzystano:
 - Raspberry Pi 4 Model B (4GB RAM)
@@ -14,7 +16,7 @@ Przy projekcie wykorzystano:
 [![Film na YouTube](https://img.youtube.com/vi/3R9dNx7FXng/0.jpg)](https://www.youtube.com/watch?v=3R9dNx7FXng)
 #### Zrzut ekranu przedstawiający detekcję:
 <p>
-    <img src="/resources/image2.png" width="50%" height=auto />
+    <img src="/resources/screenshot.png" width="50%" height=auto />
 </p>
 
 

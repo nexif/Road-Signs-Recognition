@@ -1,6 +1,6 @@
-numpy=1.19.0
+numpy==1.19.0
 pandas
 matplotlib
-playsound
 opencv_python>=4.5.0
 jupyter
+pygame
