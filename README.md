@@ -28,6 +28,7 @@ Przy projekcie wykorzystano:
 *   YOLOv4.ipynb - notatnik zawierający trenowanie sieci YOLOv4
 *   detect.ipynb - notatnik służący do detekcji znaków drogowych
 *   webcam.py - skrypt umożliwiający detekcję oraz informujący głosowo o wykrytych znakach  
+*   labels.csv - plik zawierający ID oraz odpowiadające im nazwy klas
 
 Pliki CNN.ipynb oraz YOLOv4.ipynb przeznaczone są do Google Colaboratory.
 Pliki detect.ipynb oraz webcam.py przeznaczone są do lokalnego uruchomienia na Raspberry Pi
