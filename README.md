@@ -31,4 +31,4 @@ Przy projekcie wykorzystano:
 *   labels.csv - plik zawierający ID oraz odpowiadające im nazwy klas
 
 Pliki CNN.ipynb oraz YOLOv4.ipynb przeznaczone są do Google Colaboratory.
-Pliki detect.ipynb oraz webcam.py przeznaczone są do lokalnego uruchomienia na Raspberry Pi
+Pliki detect.ipynb oraz webcam.py przeznaczone są do lokalnego uruchomienia na Raspberry Pi, jednak plik notatnik detect.ipynb może być bezproblemowo uruchomiony również w środowisku Google Colaboratory.
