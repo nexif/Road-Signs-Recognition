@@ -1,4 +1,5 @@
-# Road Signs Recognition
+# Road Signs Recognition on Raspberry Pi
+Rozpoznawanie znaków drogowych w czasie rzeczywistym na Rasbperry Pi z obrazu kamery internetowej
 
 <p>
     <img src="/resources/device.jpg" width="50%" height=auto />
@@ -8,11 +9,11 @@ Przy projekcie wykorzystano:
 - Raspberry Pi 4 Model B (4GB RAM)
 - Kamera internetowa Logitech C920
 - Tensorflow 2 + Keras API
-- Google Colaboratory do trenowania modeli
+- Google Colaboratory (do trenowania modeli)
 - [Darknet](https://github.com/AlexeyAB/darknet)  (DNN framework w C oraz CUDA)
 
 ## Dotychczasowe rezultaty:
-#### Film w serwisie YouTube:
+#### Film w serwisie YouTube (wymaga kliknięcia w miniaturkę):
 [![Film na YouTube](https://img.youtube.com/vi/3R9dNx7FXng/0.jpg)](https://www.youtube.com/watch?v=3R9dNx7FXng)
 #### Zrzut ekranu przedstawiający detekcję:
 <p>
@@ -20,9 +21,14 @@ Przy projekcie wykorzystano:
 </p>
 
 
+
 ***
 ## Struktura kodu:
-*   plik 
-*   plik
-*   folder
+*   CNN.ipynb - notatnik zawierający trenowanie klasyfikatora CNN
+*   YOLOv4.ipynb - notatnik zawierający trenowanie sieci YOLOv4
+*   detect.ipynb - notatnik służący do detekcji znaków drogowych
+*   webcam.py - skrypt umożliwiający detekcję oraz informujący głosowo o wykrytych znakach
     *   podfolder      
+
+Pliki CNN.ipynb oraz YOLOv4.ipynb przeznaczone są do Google Colaboratory.
+Pliki detect.ipynb oraz webcam.py przeznaczone są do lokalnego uruchomienia na Raspberry Pi
