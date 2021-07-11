@@ -27,7 +27,7 @@ Przy projekcie wykorzystano:
 *   **CNN.ipynb** - notatnik zawierający trenowanie klasyfikatora CNN
 *   **YOLOv4.ipynb** - notatnik zawierający trenowanie sieci YOLOv4
 *   **Detect.ipynb** - notatnik służący do detekcji znaków drogowych
-*   **Webcam.py** - skrypt umożliwiający detekcję oraz informujący głosowo o wykrytych znakach  
+*   **webcam.py** - skrypt umożliwiający detekcję oraz informujący głosowo o wykrytych znakach  
 *   **labels.csv** - plik zawierający ID oraz odpowiadające im nazwy klas
 
 Pliki CNN.ipynb oraz YOLOv4.ipynb przeznaczone są do wgrania w serwisie Google Colaboratory.

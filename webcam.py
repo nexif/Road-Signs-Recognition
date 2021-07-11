@@ -13,7 +13,6 @@ model = load_model('trained_keras_model')
 
 with open('mean_image_rgb.pickle', 'rb') as f:
     mean = pickle.load(f, encoding='latin1')
-print(mean['mean_image_rgb'].shape)
 
 labels = pd.read_csv('labels.csv')
 probability_minimum = 0.5
@@ -92,5 +91,7 @@ while True:
 
                 pygame.mixer.music.load('sounds/{num}.mp3'.format(num = prediction))
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy() == True:
+                    continue
 
 webcam.release()
