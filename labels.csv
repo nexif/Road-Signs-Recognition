@@ -1,0 +1,44 @@
+ClassId,SignName
+0,Ograniczenie predkosci (20km/h)
+1,Ograniczenie predkosci (30km/h)
+2,Ograniczenie predkosci (50km/h)
+3,Ograniczenie predkosci (60km/h)
+4,Ograniczenie predkosci (70km/h)
+5,Ograniczenie predkosci (80km/h)
+6,Ograniczenie predkosci (80km/h)
+7,Ograniczenie predkosci (100km/h)
+8,Ograniczenie predkosci (120km/h)
+9,Zakaz wyprzedzania
+10,Zakaz wjazdu pojazdow o masie 3.5t
+11,Skrzyzowanie z droga podporzadkowana po obu stronach
+12,Droga z pierwszenstwem
+13,Ustap pierwszenstwa
+14,Stop
+15,Zakaz ruchu w obu kierunkach
+16,Zakaz wjazdu samochodow ciezarowych
+17,Zakaz wjazdu
+18,Inne niebezpieczenstwo
+19,Niebezpieczny zakret w lewo
+20,Niebezpieczny zakret w prawo
+21,Niebezpieczne zakrety - pierwszy w lewo
+22,Nierowna droga
+23,Sliska jezdnia
+24,Zwezenie jezdni - prawostronne
+25,Roboty na drodze
+26,Sygnaly swietlne
+27,Przejscie dla pieszych
+28,Dzieci
+29,Przejazd dla rowerzystow
+30,Oszronienie jezdni
+31,Zwierzeta dzikie
+32,Koniec wszelkich zakazow
+33,Nakaz jazdy w prawo (za znakiem)
+34,Nakaz jazdy w lewo (za znakiem)
+35,Nakaz jazdy prosto
+36,Nakaz jazdy prosto lub w prawo
+37,Nakaz jazdy prosto lub w lewo
+38,Nakaz jazdy z prawej strony znaku
+39,Nakaz jazdy z lewej strony znaku
+40,Ruch okrezny
+41,Koniec zakazu wyprzedzania
+42,Koniec zakazu wyprzedzania przez samochody ciezarowe
